@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  imgBackground1: '../assets/images/background1.jpg',
+  imgBackground2: "../assets/images/background2.jpg",
+  imgBackground3: "../assets/images/background3.jpg",
 };
 
 /*
