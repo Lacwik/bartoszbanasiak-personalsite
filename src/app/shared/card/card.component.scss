@@ -7,10 +7,9 @@
     align-items: center;
 
     .section {
-        padding: 2%;
 
         .icon {
-            
+            padding-top: 20%;
         }
 
         .title {
@@ -20,7 +19,8 @@
         .content {
             font-family: "Oswald-Light";
             text-align: center;
-            
+            letter-spacing: 1px;
+            padding: 0 5%;
         }
     }
 

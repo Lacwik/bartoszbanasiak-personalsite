@@ -30,6 +30,22 @@ export class AppComponent {
       `instagram`,
       this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/instagram-icon.svg")
     );
+    this.matIconRegistry.addSvgIcon(
+      `strength`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/strength-icon.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      `yoga`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/yoga-icon.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      `athlete`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/athletic-man.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      `trophy`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/trophy.svg")
+    );
 
     
   }

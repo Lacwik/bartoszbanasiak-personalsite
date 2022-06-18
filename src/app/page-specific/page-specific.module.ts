@@ -9,6 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 import { QuickContactComponent } from './landing-page/quick-contact/quick-contact.component';
 import { AboutInfoComponent } from './about/about-info/about-info.component';
 import { AboutQualificationsComponent } from './about/about-qualifications/about-qualifications.component';
+import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 
 
 
@@ -18,7 +19,8 @@ import { AboutQualificationsComponent } from './about/about-qualifications/about
     QuickAboutComponent,
     QuickContactComponent,
     AboutInfoComponent,
-    AboutQualificationsComponent
+    AboutQualificationsComponent,
+    ContactFormComponent
   ],
   imports: [
     CommonModule,
@@ -31,7 +33,8 @@ import { AboutQualificationsComponent } from './about/about-qualifications/about
     QuickAboutComponent,
     QuickContactComponent,
     AboutInfoComponent,
-    AboutQualificationsComponent
+    AboutQualificationsComponent,
+    ContactFormComponent
   ]
   
 })

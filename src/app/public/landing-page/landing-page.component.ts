@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
+  cardsIconsColor = 'rgba(25,140,229,0.89)';
+
   constructor() { }
 
   ngOnInit(): void {

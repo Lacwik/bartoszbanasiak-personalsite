@@ -2,7 +2,8 @@
 <div class="container">
     <div class="section">
         <div class="icon">
-            <mat-icon svgIcon="example"></mat-icon>
+            <mat-icon [svgIcon]="svgName"
+                        [style.fill]="fillValue" ></mat-icon>
         </div>
     </div>
     <div class="section">
