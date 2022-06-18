@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="section-header">
+        <div class="section-img">
+            <img [src]="imgPath"/>
+        </div>
+        <div class="section-text">
+            <h1>{{ 'landing-page.quick-info-title'  |  translate}}</h1>
+            {{ 'landing-page.quick-info-content'  |  translate}}
+        </div>
+    </div>
+    <div class="section-body">
+        <div class="text">{{ 'example.lorem-ipsum-full'  |  translate}}</div>
+        <div class="text">{{ 'example.lorem-ipsum-full'  |  translate}}</div>
+        <div class="text">{{ 'example.lorem-ipsum-full'  |  translate}}</div>
+    </div>
+    <div class="section-social-media">
+        <h1>{{ 'about-page.social-media'  |  translate}}</h1>
+        <div class="cards">
+            <div class="icon"><a [href]="urlFb" target="_blank"><mat-icon svgIcon="facebook"></mat-icon></a></div>
+            <div class="icon"><a [href]="urlInstagram" target="_blank"><mat-icon svgIcon="instagram"></mat-icon></a></div>
+        </div>
+    </div>
+    
+</div>
+

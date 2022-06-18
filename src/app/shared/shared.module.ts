@@ -6,6 +6,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { CardComponent } from './card/card.component';
 
 
 
@@ -14,6 +15,7 @@ import { TranslateModule } from '@ngx-translate/core';
   declarations: [
     NavbarComponent,
     SliderComponent,
+    CardComponent,
 
   ],
   imports: [
@@ -25,6 +27,7 @@ import { TranslateModule } from '@ngx-translate/core';
   exports: [
     NavbarComponent,
     SliderComponent,
+    CardComponent,
   ]
   
 })

@@ -1,6 +1,35 @@
 {
+    "example": {
+        "lorem-ipsum-title": "Lorem ipsum",
+        "lorem-ipsum-full": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+
     "landing-page": {
         "title": "Lorem ipsum",
-        "title-slogan": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "title-slogan": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "quick-info-title": "Cześć!",
+        "quick-info-content": "Jestem certyfikowanym trenerem personalnym oraz instruktorem siłowni. Prywatnie wielbiciel wszelakich form aktywności fizycznych, w szczególności sportów wodnych, oraz dobrej kawy. W swojej pracy stawiam na ciągły rozwój podopiecznych, motywację i zaangażowanie.",
+        "quick-info-call2action": "Sprawdź jak mogę Ci pomóc"
+    },
+
+    "about-page": {
+        "list-title": "Ukończone szkolenia CPD",
+        "training-name-1": "KURS BLACKROLL ® SCREENING",
+        "training-name-2": "Dietetyka I Suplementacja W Sporcie",
+        "training-name-3": "Podstawy Anatomii",
+        "training-name-4": "Fundamenty Treningu Siłowego",
+        "training-name-5": "Konwencje, konferencje, sympozja",
+        "qualification-1": "Gym Instructor",
+        "qualification-2": "Personal Trainer",
+        "qualifications": "Kwalifikacje",
+        "confirmed": "potwierdzone przez:",
+        "social-media": "znajdź mnie w social mediach"
+    },
+
+    "navbar": {
+        "start": "start",
+        "about": "o mnie",
+        "offer": "oferta",
+        "contact": "kontakt"
     }
 }

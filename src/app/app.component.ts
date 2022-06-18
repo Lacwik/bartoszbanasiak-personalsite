@@ -22,5 +22,15 @@ export class AppComponent {
       `example`,
       this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/example.svg")
     );
+    this.matIconRegistry.addSvgIcon(
+      `facebook`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/fb-icon.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      `instagram`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/instagram-icon.svg")
+    );
+
+    
   }
 }

@@ -1,0 +1,40 @@
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+
+    .section-text {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-family: "Oswald-Light";
+
+        .action-call {
+            margin: 1% 0;
+        }
+    }
+}
+
+img {
+    border-radius: 50%;
+    max-width: 300px;
+    box-shadow: -10px 11px 20px 0px grey;
+}
+
+h1 {
+    font-family: "Oswald-Bold";
+}
+
+a {
+    font-family: "Oswald-Bold";
+    color: rgba(25,140,229,0.89); 
+}
+
+a:hover {
+    color: rgba(55, 159, 238, 0.89);
+}

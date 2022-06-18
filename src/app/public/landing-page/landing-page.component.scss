@@ -1,9 +1,16 @@
 
 
-.sticky {
-    background: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5% 5% 0 0;
+    box-shadow: 0px 0px 20px 15px grey;
+    margin: 0% 3%;
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
 }

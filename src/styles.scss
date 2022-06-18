@@ -4,3 +4,11 @@ body {
     margin: 0;
     height: 100%;
 }
+
+.sticky {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}

@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    .section {
+        padding: 2%;
+
+        .icon {
+            
+        }
+
+        .title {
+            font-family: "Oswald-Bold";
+        }
+
+        .content {
+            font-family: "Oswald-Light";
+            text-align: center;
+            
+        }
+    }
+
+    
+}
+
+mat-icon {
+    width: 70px;
+    height: 70px;
+}

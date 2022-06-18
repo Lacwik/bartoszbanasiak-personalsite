@@ -1,0 +1,31 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+    .section-header {
+        font-family: "Oswald-Bold";
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .section-list {
+        display: flex;
+        font-family: "Oswald-Light";
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-qualifications {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+}

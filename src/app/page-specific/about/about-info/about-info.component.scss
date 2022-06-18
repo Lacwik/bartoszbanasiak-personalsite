@@ -1,0 +1,69 @@
+img {
+    border-radius: 50%;
+    max-width: 300px;
+    box-shadow: -10px 11px 20px 0px grey;
+}
+
+mat-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    margin: 5% 0;
+
+    .section-header {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 3% 0;
+
+        .section-text {
+            display: flex;
+            flex-direction: column;
+            padding: 5%;
+            align-content: center;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-family: "Oswald-Bold";
+        }
+    }
+
+    .section-body {
+        font-family: "Oswald-Light";
+
+        .text {
+            margin: 3% 0;
+        }
+    }
+
+    .section-social-media {
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-family: "Oswald-Bold";
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            align-content: center;
+            align-items: center;
+
+            .icon {
+                padding: 5%;
+                margin: 0 10%;
+            }
+        }
+
+    }
+
+
+}
+

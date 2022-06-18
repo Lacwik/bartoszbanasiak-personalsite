@@ -3,8 +3,39 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 120px;
     box-shadow: 2px 2px 2px black;
     position: sticky;
+    align-content: center;
+    align-items: center;
+
+
+    .pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+}
+
+#img-logo {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+button {
+    width: auto;
+    background-color: #5A79EC;
+    color: white;
+    font-family: "Oswald-Light";
+    border-radius: 30px 30px 30px 30px;
+    border-width: 2px 2px 2px 2px;
+    border-color: #5A79EC;
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 20%;
+    margin: 0 2%;
 }
