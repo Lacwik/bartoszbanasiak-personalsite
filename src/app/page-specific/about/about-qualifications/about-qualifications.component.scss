@@ -29,4 +29,32 @@
         align-items: center;
         text-transform: uppercase;
     }
+
+    .section-table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+table {
+    text-transform: uppercase;
+    width: 100%;
+
+    thead {
+        background: #c7c7c7;
+        th {
+            font-family: "Oswald-Bold";
+            padding: 1%;
+        }
+    }
+
+    tbody {
+        background: #f0f0f0;
+        td {
+            font-family: "Oswald-Light";
+            
+            padding: 1%;
+        }
+    }
 }

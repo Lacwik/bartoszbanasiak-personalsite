@@ -13,7 +13,7 @@
             <li>{{ 'about-page.training-name-5'  |  translate}}</li>
         </ul>
     </div>
-    <div class="section-qualifications">
+    <!-- <div class="section-qualifications">
         <div class="section-header">
             <h1>{{ 'about-page.qualifications'  |  translate}}</h1>
         </div>
@@ -23,7 +23,36 @@
         <div class="item">
             {{ 'about-page.qualification-2'  |  translate}}
         </div>
+    </div> -->
+
+    <div class="section-header">
+        <h1>{{ 'about-page.qualifications'  |  translate}}</h1>
     </div>
+
+    <div class="section-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>{{ 'about-page.qualifications-header'  |  translate}}</th>
+                    <th>{{ 'about-page.qualifications-eqf'  |  translate}}</th>
+                    <th>{{ 'about-page.qualifications-date'  |  translate}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ 'about-page.qualification-1'  |  translate}}</td>
+                    <td>EQF 3</td>
+                    <td>2021-05-19</td>
+                </tr>
+                <tr>
+                    <td>{{ 'about-page.qualification-2'  |  translate}}</td>
+                    <td>EQF 4</td>
+                    <td>2021-05-19</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <div class="section-header">
         <h1>{{ 'about-page.confirmed'  |  translate}}</h1>
         <a [href]="repProfileUrl" target="_blank"><img id="img-logo" [src]="repLogoSource"/></a>

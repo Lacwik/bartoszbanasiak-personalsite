@@ -29,15 +29,22 @@ button {
     background-color: white;
     // color: white;
     font-family: "Oswald-Light";
-    border-radius: 30px;
+    // border-radius: 30px;
     // border-width: 2px 2px 2px 2px;
-    border-color: rgba(25,140,229,0.89);
+    // border-color: rgba(25,140,229,0.89);
     // border-style: solid;
+    border: none;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0 20%;line-height: 1.618;
+    white-space: nowrap;
+    padding: 5% 20%;
+    line-height: 1.618;
     margin: 0 2%;
+}
+
+button:hover {
+    text-shadow: 0px 5px 5px grey;
 }
 
 a, a:visited{

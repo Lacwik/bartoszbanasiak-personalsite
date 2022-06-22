@@ -5,6 +5,11 @@
 export const environment = {
   production: false,
 
+  pathLandingPage: "",
+  pathAboutPage: "about",
+  pathOfferPage: "offer",
+  pathContactPage: "contact",
+
   urlRepProfile: "https://repspolska.pl/trener/Bartosz-Banasiak/REPS-TR-2398",
   urlInstagram: "https://www.instagram.com/bb_trening_zgierz",
   urlFacebook: "https://www.facebook.com/Bartosz-Banasiak-Trener-Personalny-101043109309262",

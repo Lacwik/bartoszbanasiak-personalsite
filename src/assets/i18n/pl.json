@@ -22,6 +22,9 @@
         "qualification-1": "Gym Instructor",
         "qualification-2": "Personal Trainer",
         "qualifications": "Kwalifikacje",
+        "qualifications-header": "Nazwa Kwalifikacji",
+        "qualifications-eqf": "EQF",
+        "qualifications-date": "Data",
         "confirmed": "potwierdzone przez:",
         "social-media": "znajdź mnie w social mediach"
     },

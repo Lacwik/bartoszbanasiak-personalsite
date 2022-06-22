@@ -5,9 +5,9 @@
         <img id="img-logo" [src]="logoSource"/>
     </div>
     <div class="pages">
-        <button><a href="/">{{ 'navbar.start' | translate }}</a></button>
-        <button><a href="/about">{{ 'navbar.about' | translate }}</a></button>
-        <button><a href="/offer">{{ 'navbar.offer' | translate }}</a></button>
-        <button><a href="/contact">{{ 'navbar.contact' | translate }}</a></button>
+        <button (click)="navigateTo(pathLandingPage)"><a >{{ 'navbar.start' | translate }}</a></button>
+        <button (click)="navigateTo(pathAboutPage)"><a>{{ 'navbar.about' | translate }}</a></button>
+        <button (click)="navigateTo(pathOfferPage)"><a >{{ 'navbar.offer' | translate }}</a></button>
+        <button (click)="navigateTo(pathContactPage)"><a >{{ 'navbar.contact' | translate }}</a></button>
     </div>
 </div>
