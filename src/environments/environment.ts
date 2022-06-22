@@ -20,6 +20,7 @@ export const environment = {
   logoPath: "../assets/images/logo.jpg",
   repLogoPath: "../assets/images/replogo.png",
   imgProfile: "../assets/images/profilepic.jpg"
+  
 };
 
 /*
