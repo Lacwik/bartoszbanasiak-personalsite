@@ -21,7 +21,9 @@ export class SliderComponent implements OnInit {
     if(environment.production) {
       this.imgSource = 'url(/' + environment.imgBackground1 + ')';
     }
-    this.imgSource = 'url(/img/' + environment.imgBackground1 + ')';
+    else {
+      this.imgSource = 'url(/img/' + environment.imgBackground1 + ')';
+    }
   }
 
   onClick() {

@@ -1,6 +1,8 @@
 export const environment = {
   production: true,
 
+  i18nTranslationPath: "./assets/i18n/",
+
   pathLandingPage: "",
   pathAboutPage: "about",
   pathOfferPage: "offer",

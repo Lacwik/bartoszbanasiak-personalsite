@@ -5,6 +5,8 @@
 export const environment = {
   production: false,
 
+  i18nTranslationPath: "../assets/i18n/",
+
   pathLandingPage: "",
   pathAboutPage: "about",
   pathOfferPage: "offer",
