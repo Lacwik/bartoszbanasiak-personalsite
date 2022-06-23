@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -20,31 +21,31 @@ export class AppComponent {
 
     this.matIconRegistry.addSvgIcon(
       `example`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/example.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconExample)
     );
     this.matIconRegistry.addSvgIcon(
       `facebook`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/fb-icon.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconFacebook)
     );
     this.matIconRegistry.addSvgIcon(
       `instagram`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/instagram-icon.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconInstagram)
     );
     this.matIconRegistry.addSvgIcon(
       `strength`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/strength-icon.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconStrength)
     );
     this.matIconRegistry.addSvgIcon(
       `yoga`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/yoga-icon.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconYoga)
     );
     this.matIconRegistry.addSvgIcon(
       `athlete`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/athletic-man.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconAthlete)
     );
     this.matIconRegistry.addSvgIcon(
       `trophy`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/trophy.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconTrophy)
     );
 
     

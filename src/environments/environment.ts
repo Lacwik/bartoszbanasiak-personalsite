@@ -19,7 +19,15 @@ export const environment = {
   imgBackground3: "../assets/images/background3.jpg",
   logoPath: "../assets/images/logo.jpg",
   repLogoPath: "../assets/images/replogo.png",
-  imgProfile: "../assets/images/profilepic.jpg"
+  imgProfile: "../assets/images/profilepic.jpg",
+
+  iconExample: "../assets/svg/example.svg",
+  iconFacebook: "../assets/svg/fb-icon.svg",
+  iconInstagram: "../assets/svg/instagram-icon.svg",
+  iconStrength: "../assets/svg/strength-icon.svg",
+  iconYoga: "../assets/svg/yoga-icon.svg",
+  iconAthlete: "../assets/svg/athletic-man.svg",
+  iconTrophy: "../assets/svg/trophy.svg"
   
 };
 
