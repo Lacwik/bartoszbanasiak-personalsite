@@ -22,7 +22,6 @@ import { SharedModule } from '../shared/shared.module';
 import { QuickContactComponent } from './landing-page/quick-contact/quick-contact.component';
 import { AboutInfoComponent } from './about/about-info/about-info.component';
 import { AboutQualificationsComponent } from './about/about-qualifications/about-qualifications.component';
-import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 
 
 
@@ -33,7 +32,6 @@ import { ContactFormComponent } from './contact/contact-form/contact-form.compon
     QuickContactComponent,
     AboutInfoComponent,
     AboutQualificationsComponent,
-    ContactFormComponent
   ],
   imports: [
     CommonModule,
@@ -60,8 +58,7 @@ import { ContactFormComponent } from './contact/contact-form/contact-form.compon
     QuickAboutComponent,
     QuickContactComponent,
     AboutInfoComponent,
-    AboutQualificationsComponent,
-    ContactFormComponent
+    AboutQualificationsComponent
   ]
   
 })
