@@ -47,6 +47,10 @@ export class AppComponent {
       `trophy`,
       this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconTrophy)
     );
+    this.matIconRegistry.addSvgIcon(
+      `envelope`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconEnvelope)
+    );
 
     
   }

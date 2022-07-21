@@ -1,0 +1,37 @@
+
+
+<div class="container">
+    <div class="icon">
+        <mat-icon svgIcon="envelope"
+                    style.fill="black" ></mat-icon>
+    </div>
+
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+        <div class="row">
+          <!-- <label>
+            <input formControlName="name" placeholder="Your name">
+          </label> -->
+          <mat-form-field>
+            <input #InputName matInput 
+                    placeholder="Imie i Nazwisko"
+                    name="Name"
+                    formControlName="name"
+                    [formControl]="nameFormControl"  >
+        </mat-form-field>
+        </div>
+        <div class="row">
+          <label>
+            <input formControlName="email" placeholder="Your email">
+          </label>
+        </div>
+        <div class="row">
+          <label>
+            <input #inputMessage formControlName="message" placeholder="Your message" class="inputMessage">
+          </label>
+        </div>
+        <div class="row">
+            <button type="submit" >Send</button>
+        </div>
+        
+      </form>
+</div>

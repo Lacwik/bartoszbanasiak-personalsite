@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { CardComponent } from './card/card.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 
@@ -16,18 +19,23 @@ import { CardComponent } from './card/card.component';
     NavbarComponent,
     SliderComponent,
     CardComponent,
+    ContactFormComponent,
 
   ],
   imports: [
     CommonModule,
     BrowserAnimationsModule,
     TranslateModule,
-    MatIconModule
+    MatIconModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatFormFieldModule,
   ],
   exports: [
     NavbarComponent,
     SliderComponent,
     CardComponent,
+    ContactFormComponent,
   ]
   
 })
