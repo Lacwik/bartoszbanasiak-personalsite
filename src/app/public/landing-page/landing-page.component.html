@@ -7,9 +7,22 @@
     
     <app-slider></app-slider>
     <div class="cards">
-        <app-card svgName="yoga" [fillValue]="cardsIconsColor"></app-card>
-        <app-card svgName="athlete" [fillValue]="cardsIconsColor"></app-card>
-        <app-card svgName="trophy" [fillValue]="cardsIconsColor"></app-card>
+        <app-card svgName="yoga" 
+                    [fillValue]="cardsIconsColor"
+                    [cardTitle]="'landing-page.card-1-title'"
+                    [cardContent]="'landing-page.card-1-content'"></app-card>
+        <app-card svgName="athlete" 
+                    [fillValue]="cardsIconsColor"
+                    [cardTitle]="'landing-page.card-2-title'"
+                    [cardContent]="'landing-page.card-2-content'"></app-card>
+        <app-card svgName="trophy" 
+                    [fillValue]="cardsIconsColor"
+                    [cardTitle]="'landing-page.card-3-title'"
+                    [cardContent]="'landing-page.card-3-content'"></app-card>
+        <app-card svgName="trophy" 
+                    [fillValue]="cardsIconsColor"
+                    [cardTitle]="'landing-page.card-4-title'"
+                    [cardContent]="'landing-page.card-4-content'"></app-card>
     </div>
     <app-quick-about></app-quick-about>
     <app-quick-contact></app-quick-contact>

@@ -9,6 +9,8 @@ export class CardComponent implements OnInit {
 
   @Input() svgName = 'example';
   @Input() fillValue = 'black';
+  @Input() cardTitle = 'example.lorem-ipsum-title';
+  @Input() cardContent = 'example.lorem-ipsum-full';
 
   constructor() { }
 
