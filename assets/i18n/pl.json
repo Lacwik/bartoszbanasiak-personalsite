@@ -5,11 +5,20 @@
     },
 
     "landing-page": {
-        "title": "Lorem ipsum",
+        "title": "Sprawdź, że aktywność fizyczna nie musi być straszna",
         "title-slogan": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "quick-info-title": "Cześć!",
-        "quick-info-content": "Jestem certyfikowanym trenerem personalnym oraz instruktorem siłowni. Prywatnie wielbiciel wszelakich form aktywności fizycznych, w szczególności sportów wodnych, oraz dobrej kawy. W swojej pracy stawiam na ciągły rozwój podopiecznych, motywację i zaangażowanie.",
-        "quick-info-call2action": "Sprawdź jak mogę Ci pomóc"
+        "title-over-content": "Dlaczego warto ćwiczyć z trenerem personalnym",
+        "card-1-title": "zdrowie",
+        "card-2-title": "motywacja",
+        "card-3-title": "poprawa sylwetki",
+        "card-4-title": "lepsze samopoczucie",
+        "card-1-content": "Twoje bezpieczeństwo i zdrowie są priorytetowe",
+        "card-2-content": "Proste techniki pozwalające wytrwać w założonym celu",
+        "card-3-content": "Wzmocnienie całego ciała wraz z funkcjonalnością",
+        "card-4-content": "Poprawa jakości życia bez dolegliwości bólowych",
+        "quick-info-title": "Dlaczego warto ćwiczyć z trenerem personalnym",
+        "quick-info-content": "Niezależnie czy to Twój pierwszy kontakt z siłownią, czy chcesz wznieść swój trening na wyższy poziom, ja przygotuję dla Ciebie odpowiedni plan treningowy.",
+        "quick-info-call2action": "Umów się ze mną na spotkanie i przekonaj, że Twój cel jest możliwy do osiągnięcia"
     },
 
     "about-page": {
@@ -26,7 +35,18 @@
         "qualifications-eqf": "EQF",
         "qualifications-date": "Data",
         "confirmed": "potwierdzone przez:",
-        "social-media": "znajdź mnie w social mediach"
+        "social-media": "znajdź mnie w social mediach",
+        "quick-info-title": "Cześć!",
+        "quick-info-content": "Jestem certyfikowanym trenerem personalnym oraz instruktorem siłowni. Prywatnie wielbiciel wszelakich form aktywności fizycznych, w szczególności sportów wodnych, oraz dobrej kawy. W swojej pracy stawiam na ciągły rozwój podopiecznych, motywację i zaangażowanie.",
+        "quick-info-call2action": "Sprawdź jak mogę Ci pomóc"
+    },
+
+    "offer-page": {
+        "header-first": "Trening diagnostyczny",
+        "content-first": "Pierwsze spotkanie, na którym dowiem się wszystkich niezbędnych informacji na temat Twojego stanu zdrowia i aktywności fizycznej. Informację pozwolą mi zaproponowąć bezpieczną i efektywną metodę treningową adekwatną do celu. Następnie wykonamy analize składu ciała, niezbędne testy funkcjonalne oraz 15-20 minutową próbkę treningową.",
+        "header-second": "Trening personalny",
+        "content-second": "Podczas treningów pokażę Ci jak w bezpieczny sposób ćwiczyć, aby cieszyć się zdrowiem, kondycją oraz ogólną sprawnością. Pomogę Ci przejś drogę po lepszą formę, w prosty sposób skrojony na miarę Twoich mozliwości.",
+        "contact-slogan": "skontaktuj się ze mną"
     },
 
     "navbar": {
