@@ -1,4 +1,5 @@
 
+@import '../../../styles/globals.scss';
 
 .container {
     display: flex;
@@ -49,5 +50,5 @@ button:hover {
 
 a, a:visited{
     text-decoration: none;
-    color: rgba(25,140,229,0.89);
+    color: var(--text-blue);
 }

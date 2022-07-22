@@ -20,7 +20,7 @@ app-about-qualifications {
 
 a {
     font-family: "Oswald-Bold";
-    color: rgba(25,140,229,0.89); 
+    color: var(--text-blue); 
     text-decoration: none;
     text-transform: uppercase;  
     margin: 10% 0;

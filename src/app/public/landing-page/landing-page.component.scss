@@ -1,5 +1,5 @@
 
-
+@import '../../../styles/globals.scss';
 
 
 .container {
@@ -20,4 +20,18 @@
 
 app-card:hover {
     box-shadow: -5px 10px 20px 0px grey;
+}
+
+@media only screen and (max-width: $mobile--breakpoint-normal) {
+    .container {
+    
+        .cards {
+            flex-direction: column;
+            
+        }
+    }
+
+    app-card {
+        margin: 0 0 5% 0;
+    }
 }

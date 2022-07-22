@@ -19,10 +19,10 @@ export class SliderComponent implements OnInit {
   ngOnInit(): void {
     /// 'url(/img/' + imgSource + ')'
     if(environment.production) {
-      this.imgSource = 'url(/' + environment.imgBackground1 + ')';
+      this.imgSource = 'url(/' + environment.imgBackground2 + ')';
     }
     else {
-      this.imgSource = 'url(/img/' + environment.imgBackground1 + ')';
+      this.imgSource = 'url(/img/' + environment.imgBackground3 + ')';
     }
   }
 

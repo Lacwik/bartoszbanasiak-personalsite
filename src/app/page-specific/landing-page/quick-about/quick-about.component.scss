@@ -1,4 +1,5 @@
 
+@import '../../../../styles/globals.scss';
 
 .container {
     display: flex;
@@ -33,9 +34,30 @@ h1 {
 
 a {
     font-family: "Oswald-Bold";
-    color: rgba(25,140,229,0.89); 
+    color: var(--text-blue); 
 }
 
 a:hover {
-    color: rgba(55, 159, 238, 0.89);
+    color: var(--text-blue);
+}
+
+@media only screen and (max-width: $mobile--breakpoint-normal) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: $mobile--breakpoint-small) {
+    img {
+        max-width: 200px;
+    }
 }

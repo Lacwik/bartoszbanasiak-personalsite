@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+// @import './styles/globals.scss';
+// @import './app/public/landing-page/landing-page.component.scss';
+
+:root {
+    --text-blue: rgba(25,140,229,0.89);
+
+}
+
+
 body {
     margin: 0;
     height: 100%;
