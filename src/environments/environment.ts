@@ -23,6 +23,7 @@ export const environment = {
   repLogoPath: "../assets/images/replogo.png",
   imgProfile: "../assets/images/profilepic.jpg",
 
+
   iconExample: "../assets/svg/example.svg",
   iconFacebook: "../assets/svg/fb-icon.svg",
   iconInstagram: "../assets/svg/instagram-icon.svg",
@@ -30,7 +31,8 @@ export const environment = {
   iconYoga: "../assets/svg/yoga-icon.svg",
   iconAthlete: "../assets/svg/athletic-man.svg",
   iconTrophy: "../assets/svg/trophy.svg",
-  iconEnvelope: "../assets/svg/envelope-send.svg"
+  iconEnvelope: "../assets/svg/envelope-send.svg",
+  iconMobileMenu: "../assets/svg/menu-icon.svg"
   
 };
 

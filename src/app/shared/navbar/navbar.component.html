@@ -4,10 +4,43 @@
     <div class="logo">
         <img id="img-logo" [src]="logoSource"/>
     </div>
-    <div class="pages">
+    <div class="pc-menu">
         <button (click)="navigateTo(pathLandingPage)"><a >{{ 'navbar.start' | translate }}</a></button>
         <button (click)="navigateTo(pathAboutPage)"><a>{{ 'navbar.about' | translate }}</a></button>
         <button (click)="navigateTo(pathOfferPage)"><a >{{ 'navbar.offer' | translate }}</a></button>
         <button (click)="navigateTo(pathContactPage)"><a >{{ 'navbar.contact' | translate }}</a></button>
+    </div>
+    <div class="mobile-menu">
+
+        <button><mat-icon>more_vert</mat-icon></button>
+
+        <div class="mobile-menu-content">
+            <ul>
+                <li><button (click)="navigateTo(pathLandingPage)"><a >{{ 'navbar.start' | translate }}</a></button></li>
+                <li><button (click)="navigateTo(pathAboutPage)"><a>{{ 'navbar.about' | translate }}</a></button></li>
+                <li><button (click)="navigateTo(pathOfferPage)"><a >{{ 'navbar.offer' | translate }}</a></button></li>
+                <li><button (click)="navigateTo(pathContactPage)"><a >{{ 'navbar.contact' | translate }}</a></button></li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>more_vert</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu" xPosition="before">
+            <button mat-menu-item>
+              <mat-icon>dialpad</mat-icon>
+              <span>Redial</span>
+            </button>
+          </mat-menu> -->
+
+
+
     </div>
 </div>

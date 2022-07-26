@@ -12,12 +12,42 @@
     align-items: center;
     padding: 0 4%;
 
-    .pages {
+    .pc-menu {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
     }
+
+    .mobile-menu {
+        position: relative;
+        margin-right: 5%;
+
+        .mobile-menu-content {
+            position: absolute;
+            right: 0;
+            width: 170px;
+            background-color: white;
+            padding: .75rem;
+            border-radius: .25rem;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0, .1);
+            opacity: 0;
+
+            transform:  translateY(-10px);
+            transition: opacity 150ms ease-in-out, 
+                        transform 150ms ease-in-out;
+        }
+    }
     
+}
+
+.mobile-menu > button:focus + .mobile-menu-content {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.mobile-menu-content.active {
+    opacity: 1;
 }
 
 #img-logo {
@@ -28,12 +58,7 @@
 button {
     width: auto;
     background-color: white;
-    // color: white;
     font-family: "Oswald-Light";
-    // border-radius: 30px;
-    // border-width: 2px 2px 2px 2px;
-    // border-color: rgba(25,140,229,0.89);
-    // border-style: solid;
     border: none;
     font-size: 20px;
     font-weight: 400;
@@ -51,4 +76,22 @@ button:hover {
 a, a:visited{
     text-decoration: none;
     color: var(--text-blue);
+}
+
+@media only screen and (max-width: $mobile--breakpoint-normal) {
+
+    .pc-menu {
+        visibility: hidden;
+        display: none !important;
+    } 
+
+}
+
+@media only screen and (min-width: $mobile--breakpoint-normal) {
+
+    .mobile-menu {
+        visibility: hidden;
+        display: none;
+    }
+
 }

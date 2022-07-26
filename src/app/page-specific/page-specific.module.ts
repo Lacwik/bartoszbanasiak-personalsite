@@ -14,6 +14,7 @@ import { MatTableModule } from '@angular/material/table';
 import { CdkTableModule } from '@angular/cdk/table';
 import { MatDividerModule } from '@angular/material/divider';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 import { TranslateModule } from '@ngx-translate/core';
@@ -54,7 +55,8 @@ import { GoogleMapComponent } from './contact-page/google-map/google-map.compone
     CdkTableModule,
     MatDividerModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule
   ],
   exports: [
     QuickAboutComponent,

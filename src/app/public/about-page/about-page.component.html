@@ -6,5 +6,8 @@
 <div class="container">
     <app-about-info></app-about-info>
     <app-about-qualifications></app-about-qualifications>
-    <a href="/offer">{{ 'landing-page.quick-info-call2action'  |  translate}}</a>
+    <div class="action-call">
+        <a (click)="navigateTo(pathContactPage)">{{ 'landing-page.quick-info-call2action'  |  translate}}</a>
+    </div>
+    
 </div>

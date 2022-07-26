@@ -51,6 +51,10 @@ export class AppComponent {
       `envelope`,
       this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconEnvelope)
     );
+    this.matIconRegistry.addSvgIcon(
+      `mobileMenu`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(environment.iconMobileMenu)
+    );
 
     
   }

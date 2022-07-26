@@ -10,6 +10,7 @@ import { CardComponent } from './card/card.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 
@@ -30,6 +31,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     ReactiveFormsModule,
     FormsModule,
     MatFormFieldModule,
+    MatMenuModule
   ],
   exports: [
     NavbarComponent,

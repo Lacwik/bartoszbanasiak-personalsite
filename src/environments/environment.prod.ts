@@ -26,6 +26,7 @@ export const environment = {
   iconYoga: "./assets/svg/yoga-icon.svg",
   iconAthlete: "./assets/svg/athletic-man.svg",
   iconTrophy: "./assets/svg/trophy.svg",
-  iconEnvelope: "./assets/svg/envelope-send.svg"
+  iconEnvelope: "./assets/svg/envelope-send.svg",
+  iconMobileMenu: "./assets/svg/menu-icon.svg"
 
 };
