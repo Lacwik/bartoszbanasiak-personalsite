@@ -11,6 +11,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatMenuModule } from '@angular/material/menu';
+import { PageScrollerComponent } from './page-scroller/page-scroller.component';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 
 
@@ -21,6 +23,7 @@ import { MatMenuModule } from '@angular/material/menu';
     SliderComponent,
     CardComponent,
     ContactFormComponent,
+    PageScrollerComponent,
 
   ],
   imports: [
@@ -31,13 +34,15 @@ import { MatMenuModule } from '@angular/material/menu';
     ReactiveFormsModule,
     FormsModule,
     MatFormFieldModule,
-    MatMenuModule
+    MatMenuModule,
+    NgxPageScrollCoreModule
   ],
   exports: [
     NavbarComponent,
     SliderComponent,
     CardComponent,
     ContactFormComponent,
+    PageScrollerComponent
   ]
   
 })

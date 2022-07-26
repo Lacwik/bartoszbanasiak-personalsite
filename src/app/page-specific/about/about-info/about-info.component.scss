@@ -1,3 +1,5 @@
+@import '../../../../styles/globals.scss';
+
 img {
     border-radius: 50%;
     max-width: 300px;
@@ -65,6 +67,32 @@ mat-icon {
 
     }
 
+
+}
+
+
+@media only screen and (max-width: $mobile--breakpoint-normal) {
+
+    img {
+        max-width: 200px;
+    }
+
+    .container {
+        .section-header {
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            .section-text {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    } 
 
 }
 

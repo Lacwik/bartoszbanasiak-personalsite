@@ -24,3 +24,10 @@ body {
     width: 100%;
     z-index: 10;
 }
+
+.sticky-scroller {
+    position: fixed;
+    z-index: 11;
+    bottom: 3%;
+    right: 5%;
+}

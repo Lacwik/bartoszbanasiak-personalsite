@@ -1,8 +1,8 @@
 
 
-<div class="container">
+<div class="container" id="navbar">
     <div class="logo">
-        <img id="img-logo" [src]="logoSource"/>
+        <img id="img-logo" [src]="logoSource" (click)="scrollToTopSmooth()"/>
     </div>
     <div class="pc-menu">
         <button (click)="navigateTo(pathLandingPage)"><a >{{ 'navbar.start' | translate }}</a></button>

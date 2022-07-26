@@ -23,12 +23,13 @@
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
     "angular-cli-ghpages": "^1.0.0",
+    "ngx-page-scroll-core": "^9.0.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.0.2",
+    "@angular-devkit/build-angular": "^14.1.0",
     "@angular/cli": "^14.0.2",
     "@angular/compiler-cli": "^14.0.2",
     "@types/jasmine": "~3.10.0",

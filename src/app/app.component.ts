@@ -58,4 +58,15 @@ export class AppComponent {
 
     
   }
+
+
+  onScroll(event: any) {
+    // visible height + pixel scrolled >= total height 
+    console.log(event.target.offsetHeight);
+    console.log(event.target.scrollTop);
+    console.log(event.target.scrollHeight);
+    if (event.target.offsetHeight + event.target.scrollTop >= event.target.scrollHeight) {
+      console.log("End");
+    }
+}
 }
