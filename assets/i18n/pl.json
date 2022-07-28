@@ -18,7 +18,8 @@
         "card-4-content": "Poprawa jakości życia bez dolegliwości bólowych",
         "quick-info-title": "Dlaczego warto ćwiczyć z trenerem personalnym",
         "quick-info-content": "Niezależnie czy to Twój pierwszy kontakt z siłownią, czy chcesz wznieść swój trening na wyższy poziom, ja przygotuję dla Ciebie odpowiedni plan treningowy.",
-        "quick-info-call2action": "Umów się ze mną na spotkanie i przekonaj, że Twój cel jest możliwy do osiągnięcia"
+        "quick-info-call2action": "Umów się ze mną na spotkanie i przekonaj, że Twój cel jest możliwy do osiągnięcia",
+        "quick-contact-button-text": "Skontaktuj się"
     },
 
     "about-page": {
@@ -47,6 +48,17 @@
         "header-second": "Trening personalny",
         "content-second": "Podczas treningów pokażę Ci jak w bezpieczny sposób ćwiczyć, aby cieszyć się zdrowiem, kondycją oraz ogólną sprawnością. Pomogę Ci przejś drogę po lepszą formę, w prosty sposób skrojony na miarę Twoich mozliwości.",
         "contact-slogan": "skontaktuj się ze mną"
+    },
+
+    "contact-page": {
+        "phone-number": "792 002 706",
+        "email-adress": "bartosz.banasiak13@gmail.com",
+        "adress-header": "Miejsce prowadzenia treningów",
+        "adress-gym-name": "Fitness Forma",
+        "adress-street": "ul. Samozwaniec 18",
+        "adress-city": "Zgierz",
+        "contact-header-normal": "Zadzwoń / Napisz",
+        "contact-header-contact-form": "lub skorzystaj z formularza kontaktowego"
     },
 
     "navbar": {
