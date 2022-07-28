@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-quick-contact',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuickContactComponent implements OnInit {
 
-  constructor() { }
+  pathContactPage = '';
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    this.pathContactPage = environment.pathContactPage;
+  }
+
+  navigateToContactPage(): void {
+    this.router.navigateByUrl('/' + this.pathContactPage);
   }
 
 }

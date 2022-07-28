@@ -20,6 +20,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 export class ContactFormComponent implements OnInit {
 
   emailFormControl = new FormControl('', [
+    Validators.required,
     Validators.email,
   ]);
 
@@ -29,17 +30,18 @@ export class ContactFormComponent implements OnInit {
 
 
   myForm!: FormGroup;
+  matcher = new MyErrorStateMatcher();
 
   constructor(private formBuilder: FormBuilder) { 
 
   }
 
   ngOnInit(): void {
-    this.myForm = this.formBuilder.group({
-      name: ['', [Validators.required]],
-      email: ['', [Validators.required, Validators.email]],
-      message: ['', [Validators.required, Validators.minLength(15)]],
-    });
+    // this.myForm = this.formBuilder.group({
+    //   name: ['', [Validators.required]],
+    //   email: ['', [Validators.required, Validators.email]],
+    //   message: ['', [Validators.required, Validators.minLength(15)]],
+    // });
   }
 
 

@@ -1,0 +1,67 @@
+@import "../../../../styles/globals.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+    width: 100%;
+    font-family: "Oswald-Light";
+
+    .row {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0;
+        width: 100%;
+
+        .text {
+            margin: 0 5%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+}
+
+mat-icon {
+    font-size: -webkit-xxx-large;
+    width: auto;
+    height: auto;
+    margin: 0 -10%;
+}
+
+@media only screen and (max-width: $mobile--breakpoint-normal) {
+
+    .row {
+        flex-direction: row;
+    }
+
+    .hideable {
+        visibility: visible;
+    }
+
+    mat-icon {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (max-width: $mobile--breakpoint-small) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .hideable {
+        visibility: hidden;
+    }
+
+    mat-icon {
+        padding: 0 5%;
+    }
+}

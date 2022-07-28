@@ -1,3 +1,5 @@
+@import '../styles/globals.scss';
+
 @font-face {
     font-family: "Oswald-Light";
     src: local("Oswald-Light"), url(../assets/fonts/oswald/Oswald-Light.ttf) format("truetype");
@@ -11,3 +13,6 @@
     src: local("Oswald-Bold"), url(../assets/fonts/oswald/Oswald-Bold.ttf) format("truetype");
 }
 
+#top {
+    height: $navbar--logo-height;
+}

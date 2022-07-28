@@ -24,6 +24,9 @@ import { QuickContactComponent } from './landing-page/quick-contact/quick-contac
 import { AboutInfoComponent } from './about/about-info/about-info.component';
 import { AboutQualificationsComponent } from './about/about-qualifications/about-qualifications.component';
 import { GoogleMapComponent } from './contact-page/google-map/google-map.component';
+import { ContactInfoComponent } from './contact-page/contact-info/contact-info.component';
+import { TrainingOptionsComponent } from './offer-page/training-options/training-options.component';
+import { TrainingContactComponent } from './offer-page/training-contact/training-contact.component';
 
 
 
@@ -35,6 +38,9 @@ import { GoogleMapComponent } from './contact-page/google-map/google-map.compone
     AboutInfoComponent,
     AboutQualificationsComponent,
     GoogleMapComponent,
+    ContactInfoComponent,
+    TrainingOptionsComponent,
+    TrainingContactComponent,
   ],
   imports: [
     CommonModule,
@@ -63,7 +69,10 @@ import { GoogleMapComponent } from './contact-page/google-map/google-map.compone
     QuickContactComponent,
     AboutInfoComponent,
     AboutQualificationsComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    ContactInfoComponent,
+    TrainingOptionsComponent,
+    TrainingContactComponent
   ]
   
 })

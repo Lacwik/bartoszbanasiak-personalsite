@@ -1,47 +1,53 @@
 
 
 .container {
-    margin: 20% 0 2% 0;
     width: 100%;
+    text-transform: uppercase;
+    font-family: Oswald-Light;
+    // background: burlywood;
+
+    .example-form {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+
+        .example-full-width {
+            margin: 1em 0em;
+            padding: 1em 0 1em 1em;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #EEEEF5;
+            border-radius: 30px 30px 30px 30px;
+        }
+    }
+
+
+}
+
+
+
+button {
+    font-family: Oswald-Light;
+    min-width: 100px;
+    width: auto;
+    color: #fff;
+    background-color: var(--text-blue);
+    border-radius: 30px;
+    border-width: 2px 2px 2px 2px;
+    border-color: var(--text-blue);
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1%;
+    margin: 10% 0 ;
+}
+
+textarea {
     display: flex;
     flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
-    .row {
-        padding: 5%;
-        display: flex;
-        flex-grow: 1;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        width: 100%;
-    }
-}
-
-input {
-    border-radius: 30px;
-    border: none;
-    background-color: rgb(230, 230, 230);
-    padding: 5%;
-    width: 100%;
-    font-family: "Oswald-Light";
-    text-transform: uppercase;
-} 
-
-::placeholder {
-    color: red;
-    display: flex;
-    align-items: flex-start;
-    text-align: start;
-    align-content: flex-start;
-    top: 0;
-     
-}
-
-
-.inputMessage {
-    height: 10rem;
+    min-height: 100px !important;
 }

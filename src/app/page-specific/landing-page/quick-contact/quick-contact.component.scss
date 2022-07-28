@@ -1,4 +1,4 @@
-
+@import "../../../../styles/globals.scss";
 
 .container {
     width: 100%;
@@ -6,5 +6,20 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    
+    margin: 5% 0;
+}
+
+button {
+    font-family: Oswald-Light;
+    width: auto;
+    color: #fff;
+    background-color: var(--text-blue);
+    border-radius: 30px;
+    border-width: 2px 2px 2px 2px;
+    border-color: var(--text-blue);
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1%;
 }

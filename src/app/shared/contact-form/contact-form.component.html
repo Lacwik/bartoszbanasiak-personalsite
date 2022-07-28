@@ -1,36 +1,36 @@
 
 
 <div class="container">
-    <div class="icon">
-        <mat-icon svgIcon="envelope"
-                    style.fill="black" ></mat-icon>
-    </div>
 
-    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
-        <div class="row">
-          <!-- <label>
-            <input formControlName="name" placeholder="Your name">
-          </label> -->
-          <mat-form-field>
-            <input #InputName matInput 
-                    placeholder="Imie i Nazwisko"
-                    name="Name"
-                    formControlName="name"
-                    [formControl]="nameFormControl"  >
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="example-form">
+
+        <mat-form-field appearance="fill">
+          <!-- <label>Email</label> -->
+          <input matInput class="example-full-width"
+                  [formControl]="emailFormControl" 
+                  [errorStateMatcher]="matcher" 
+                  placeholder="Email"
+                  type="email"
+                  name="Email" >
+          <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            Adres email jest <strong>nieprawidłowy</strong>
+          </mat-error>
         </mat-form-field>
-        </div>
+
+        <mat-form-field class="example-full-width">
+          <label>Zadaj pytanie</label>
+          <textarea #InputCustomMessage matInput 
+                     matTextareaAutosize
+                     name="Message"
+                     formControlName="Message"  
+                     >
+          </textarea>
+      </mat-form-field>
+
+
         <div class="row">
-          <label>
-            <input formControlName="email" placeholder="Your email">
-          </label>
-        </div>
-        <div class="row">
-          <label>
-            <input #inputMessage formControlName="message" placeholder="Your message" class="inputMessage">
-          </label>
-        </div>
-        <div class="row">
-            <button type="submit" >Send</button>
+          <!-- <mat-icon svgIcon="envelope" ></mat-icon> -->
+          <button type="submit" mat-raised-button>Send</button>
         </div>
         
       </form>

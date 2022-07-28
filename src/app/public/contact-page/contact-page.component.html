@@ -1,9 +1,19 @@
-<p>contact-page works!</p>
+
 
 <app-navbar class="sticky"></app-navbar>
 
 <div class="container">
-    <app-contact-form></app-contact-form>
-    <br>
+    <div class="container-center">
+        <div class="header">{{ 'contact-page.contact-header-normal'  |  translate}}</div>
+        <app-contact-info></app-contact-info>
+        <div class="header">{{ 'contact-page.contact-header-contact-form'  |  translate}}</div>
+        <app-contact-form></app-contact-form>
+        <div class="header">{{ 'contact-page.adress-header'  |  translate}}</div>
+        <div class="adress-info">
+            <div>{{ 'contact-page.adress-gym-name'  |  translate}}</div>
+            <div>{{ 'contact-page.adress-street'  |  translate}}</div>
+            <div>{{ 'contact-page.adress-city'  |  translate}}</div>
+        </div>
+    </div>
     <app-google-map></app-google-map>
 </div>
