@@ -1,6 +1,6 @@
 {
     "example": {
-        "lorem-ipsum-title": "Lorem ipsum",
+        "lorem-ipsum-title": "Lorem ipsum ®",
         "lorem-ipsum-full": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
 
@@ -23,12 +23,15 @@
     },
 
     "about-page": {
-        "list-title": "Ukończone szkolenia CPD",
-        "training-name-1": "KURS BLACKROLL ® SCREENING",
-        "training-name-2": "Dietetyka I Suplementacja W Sporcie",
-        "training-name-3": "Podstawy Anatomii",
-        "training-name-4": "Fundamenty Treningu Siłowego",
-        "training-name-5": "Konwencje, konferencje, sympozja",
+        "list-title": "Ukończone szkolenia",
+        "training-name-1": "2022 - Trening Siłowy dla Kobiet (A4Academy)",
+        "training-name-2": "2022 - Blackroll® Screening - Diagnostyka funkcjonalna narządu ruchu (Blackroll Polska)",
+        "training-name-3": "2021 - Fundamenty treningu siłowego (A4Academy)",
+        "training-name-4": "2021 - Podstawy anatomii (A4Academy)",
+        "training-name-5": "2021 - Mobility 360 (A4Academy)",
+        "training-name-6": "2021 - Dietetyka i suplementacja w sporcie (A4Academy)",
+        "training-name-7": "2020 - Instruktor Siłowni (PTA)",
+        "training-name-8": "2020 - Trener Personalny (PTA)",
         "qualification-1": "Gym Instructor",
         "qualification-2": "Personal Trainer",
         "qualifications": "Kwalifikacje",
